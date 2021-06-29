@@ -1,0 +1,15 @@
+C:\Users\Administrator\source\repos\Get_FileList\Get_FileList\bin\Debug\netcoreapp3.1\Get_FileList.exe
+C:\Users\Administrator\source\repos\Get_FileList\Get_FileList\bin\Debug\netcoreapp3.1\Get_FileList.deps.json
+C:\Users\Administrator\source\repos\Get_FileList\Get_FileList\bin\Debug\netcoreapp3.1\Get_FileList.runtimeconfig.json
+C:\Users\Administrator\source\repos\Get_FileList\Get_FileList\bin\Debug\netcoreapp3.1\Get_FileList.runtimeconfig.dev.json
+C:\Users\Administrator\source\repos\Get_FileList\Get_FileList\bin\Debug\netcoreapp3.1\Get_FileList.dll
+C:\Users\Administrator\source\repos\Get_FileList\Get_FileList\bin\Debug\netcoreapp3.1\Get_FileList.pdb
+C:\Users\Administrator\source\repos\Get_FileList\Get_FileList\obj\Debug\netcoreapp3.1\Get_FileList.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\Get_FileList\Get_FileList\obj\Debug\netcoreapp3.1\Get_FileList.Form1.resources
+C:\Users\Administrator\source\repos\Get_FileList\Get_FileList\obj\Debug\netcoreapp3.1\Get_FileList.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\Get_FileList\Get_FileList\obj\Debug\netcoreapp3.1\Get_FileList.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\Get_FileList\Get_FileList\obj\Debug\netcoreapp3.1\Get_FileList.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\Get_FileList\Get_FileList\obj\Debug\netcoreapp3.1\Get_FileList.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Get_FileList\Get_FileList\obj\Debug\netcoreapp3.1\Get_FileList.dll
+C:\Users\Administrator\source\repos\Get_FileList\Get_FileList\obj\Debug\netcoreapp3.1\Get_FileList.pdb
+C:\Users\Administrator\source\repos\Get_FileList\Get_FileList\obj\Debug\netcoreapp3.1\Get_FileList.genruntimeconfig.cache
