@@ -36,26 +36,37 @@ namespace Get_FileList
         static void DirFileSearch(string path, string file)
         {
             int i = 0;
+            Double version = 0.0 ;
+            StringBuilder Cur_V = new StringBuilder(255);
+
             string CP= System.Environment.CurrentDirectory;//현재 실행경로 가져오기
             try
             {
                 string File_Path = Environment.CurrentDirectory;
                 // \ 구분자로 키워드 구하기
-                string spliter = Path.GetFullPath(Path.Combine(File_Path, @"..")).Split(@"\")[Path.GetFullPath(Path.Combine(File_Path, @"..")).Split(@"\").Length-1];
+                string spliter = Path.GetFullPath(Path.Combine(File_Path, @"..")).Split(@"\")[Path.GetFullPath(Path.Combine(File_Path, @"..")).Split(@"\").Length-2];
                 string s_buf;
-                string super_path = Environment.CurrentDirectory.ToString();
+                string super_path = Path.GetDirectoryName(Environment.CurrentDirectory);
                 string[] files = { "", };
                 super_path = Directory.GetParent(super_path).ToString();
                 files = Directory.GetFiles(super_path, "*.*", SearchOption.AllDirectories);
-              
                 int cnt=0;
+                
                 while (cnt < files.Length)
                 {
                     s_buf = files[cnt].Split(spliter)[super_path.Split(spliter).Length-1];
                     WritePrivateProfileString("Files", "" + cnt.ToString(), s_buf, Environment.CurrentDirectory.ToString() + @"\" + "List.ini");
                     cnt++;
                 }
-                WritePrivateProfileString("Files","index",files.Length.ToString(), super_path + @"\" + "List.ini");
+                WritePrivateProfileString("Files","index",files.Length.ToString(), Environment.CurrentDirectory.ToString() + @"\" + "List.ini");
+                GetPrivateProfileString("Version", "Version","0.0",Cur_V, 255, Environment.CurrentDirectory.ToString() + @"\" + "List.ini");
+                if (Cur_V.ToString() == "0.0") {
+                    WritePrivateProfileString("Version", "Version", "0.0", Environment.CurrentDirectory.ToString() + @"\" + "List.ini"); //Version 없을때 쓰기
+                }
+                version = Double.Parse(Cur_V.ToString())+0.1; //버전상승
+                version = Math.Truncate(version * 10) / 10;//trash 값 자르기
+                WritePrivateProfileString("Version", "Version", version.ToString(), Environment.CurrentDirectory.ToString() + @"\" + "List.ini");
+        
             }
             catch (Exception ex)
             {

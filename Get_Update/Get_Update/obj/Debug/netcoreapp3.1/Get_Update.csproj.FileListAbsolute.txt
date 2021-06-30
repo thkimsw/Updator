@@ -1,0 +1,14 @@
+C:\Users\Administrator\source\repos\Get_Update\Get_Update\bin\Debug\netcoreapp3.1\Get_Update.exe
+C:\Users\Administrator\source\repos\Get_Update\Get_Update\bin\Debug\netcoreapp3.1\Get_Update.deps.json
+C:\Users\Administrator\source\repos\Get_Update\Get_Update\bin\Debug\netcoreapp3.1\Get_Update.runtimeconfig.json
+C:\Users\Administrator\source\repos\Get_Update\Get_Update\bin\Debug\netcoreapp3.1\Get_Update.runtimeconfig.dev.json
+C:\Users\Administrator\source\repos\Get_Update\Get_Update\bin\Debug\netcoreapp3.1\Get_Update.dll
+C:\Users\Administrator\source\repos\Get_Update\Get_Update\bin\Debug\netcoreapp3.1\Get_Update.pdb
+C:\Users\Administrator\source\repos\Get_Update\Get_Update\obj\Debug\netcoreapp3.1\Get_Update.Form1.resources
+C:\Users\Administrator\source\repos\Get_Update\Get_Update\obj\Debug\netcoreapp3.1\Get_Update.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\Get_Update\Get_Update\obj\Debug\netcoreapp3.1\Get_Update.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\Get_Update\Get_Update\obj\Debug\netcoreapp3.1\Get_Update.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\Get_Update\Get_Update\obj\Debug\netcoreapp3.1\Get_Update.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Get_Update\Get_Update\obj\Debug\netcoreapp3.1\Get_Update.dll
+C:\Users\Administrator\source\repos\Get_Update\Get_Update\obj\Debug\netcoreapp3.1\Get_Update.pdb
+C:\Users\Administrator\source\repos\Get_Update\Get_Update\obj\Debug\netcoreapp3.1\Get_Update.genruntimeconfig.cache
