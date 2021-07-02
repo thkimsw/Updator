@@ -1,0 +1,2 @@
+C:\Users\Administrator\source\repos\Get_Update\Get_Update\bin\publish\Get_Update.pdb
+C:\Users\Administrator\source\repos\Get_Update\Get_Update\bin\publish\Get_Update.exe

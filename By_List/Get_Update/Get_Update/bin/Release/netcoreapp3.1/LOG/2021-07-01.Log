@@ -1,0 +1,778 @@
+[2021-07-01 오전 9:01:07] 
+ [failed] 
+System.Net.WebException: An exception occurred during a WebClient request.
+ ---> System.UnauthorizedAccessException: Access to the path 'C:\SSKIOSK' is denied.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 150
+[2021-07-01 오전 9:02:14] 
+ [failed] 
+System.Net.WebException: An exception occurred during a WebClient request.
+ ---> System.UnauthorizedAccessException: Access to the path 'C:\SSKIOSK' is denied.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 150
+[2021-07-01 오전 9:02:58] [updated] 
+List_Up
+[2021-07-01 오전 9:03:24] [updated] 
+List_Up
+[2021-07-01 오전 9:03:48] [updated] 
+List_Up
+[2021-07-01 오전 9:08:18] [updated] 
+List_Up
+[2021-07-01 오전 9:09:04] [updated] 
+List_Up
+[2021-07-01 오전 9:09:10] 
+ [failed] 
+System.Net.WebException: An exception occurred during a WebClient request.
+ ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\SSKIOSK\SSKIOSK\EDBmaker.dll'.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 149
+[2021-07-01 오전 9:09:19] 
+ [failed] 
+System.Net.WebException: An exception occurred during a WebClient request.
+ ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\SSKIOSK\SSKIOSK\Get_FileList.deps.json'.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 149
+[2021-07-01 오전 9:09:20] 
+ [failed] 
+System.Net.WebException: An exception occurred during a WebClient request.
+ ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\SSKIOSK\SSKIOSK\Get_FileList.dll'.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 149
+[2021-07-01 오전 9:10:55] [updated] 
+List_Up
+[2021-07-01 오전 9:10:58] 
+ [failed] 
+System.Net.WebException: An exception occurred during a WebClient request.
+ ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\SSKIOSK\SSKIOSK\EDBmaker.dll'.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 149
+[2021-07-01 오전 9:10:59] 
+ [failed] 
+System.Net.WebException: An exception occurred during a WebClient request.
+ ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\SSKIOSK\SSKIOSK\Get_FileList.deps.json'.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 149
+[2021-07-01 오전 9:11:00] 
+ [failed] 
+System.Net.WebException: An exception occurred during a WebClient request.
+ ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\SSKIOSK\SSKIOSK\Get_FileList.dll'.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 149
+[2021-07-01 오전 9:11:33] [updated] 
+List_Up
+[2021-07-01 오전 9:13:32] [updated] 
+List_Up
+[2021-07-01 오전 9:13:38] 
+ [failed] 
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.Net.WebClient.GetWebResponse(WebRequest request)
+   at System.Net.WebClient.DownloadBits(WebRequest request, Stream writeStream)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 150
+[2021-07-01 오전 9:13:39] 
+ [failed] 
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.Net.WebClient.GetWebResponse(WebRequest request)
+   at System.Net.WebClient.DownloadBits(WebRequest request, Stream writeStream)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 150
+[2021-07-01 오전 9:14:04] [updated] 
+List_Up
+[2021-07-01 오전 9:14:10] [updated] 
+List_Up
+[2021-07-01 오전 9:14:32] [updated] 
+List_Up
+[2021-07-01 오전 9:14:40] 
+ [failed] 
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.Net.WebClient.GetWebResponse(WebRequest request)
+   at System.Net.WebClient.DownloadBits(WebRequest request, Stream writeStream)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 148
+[2021-07-01 오전 9:14:41] 
+ [failed] 
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.Net.WebClient.GetWebResponse(WebRequest request)
+   at System.Net.WebClient.DownloadBits(WebRequest request, Stream writeStream)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 148
+[2021-07-01 오전 9:15:15] [updated] 
+List_Up
+[2021-07-01 오전 9:16:27] [updated] 
+List_Up
+[2021-07-01 오전 9:16:39] [updated] 
+List_Up
+[2021-07-01 오전 9:16:44] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 135
+[2021-07-01 오전 9:17:09] [updated] 
+List_Up
+[2021-07-01 오전 9:17:19] [updated] 
+List_Up
+[2021-07-01 오전 9:17:28] [updated] 
+List_Up
+[2021-07-01 오전 9:18:33] [updated] 
+List_Up
+[2021-07-01 오전 9:18:42] [updated] 
+List_Up
+[2021-07-01 오전 9:18:45] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 135
+[2021-07-01 오전 10:47:47] [updated] 
+List_Up
+[2021-07-01 오전 10:47:47] 
+ [failed] 
+System.Net.WebException: An exception occurred during a WebClient request.
+ ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\SSKIOSK\a\1.txt'.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 151
+[2021-07-01 오전 10:47:47] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 135
+[2021-07-01 오전 10:48:24] [updated] 
+List_Up
+[2021-07-01 오전 10:48:57] [updated] 
+List_Up
+[2021-07-01 오전 10:48:57] 
+ [failed] 
+System.Net.WebException: An exception occurred during a WebClient request.
+ ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\SSKIOSK\a\1.txt'.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 151
+[2021-07-01 오전 10:48:57] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 135
+[2021-07-01 오전 10:49:37] [updated] 
+List_Up
+[2021-07-01 오전 10:49:47] [updated] 
+List_Up
+[2021-07-01 오전 10:49:50] 
+ [failed] 
+System.Net.WebException: An exception occurred during a WebClient request.
+ ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\SSKIOSK\a\1.txt'.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 152
+[2021-07-01 오전 10:49:50] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 135
+[2021-07-01 오전 10:52:23] [updated] 
+List_Up
+[2021-07-01 오전 10:52:55] [updated] 
+List_Up
+[2021-07-01 오전 10:53:47] [updated] 
+List_Up
+[2021-07-01 오전 10:54:08] [updated] 
+List_Up
+[2021-07-01 오전 10:54:13] 
+ [failed] 
+System.Net.WebException: An exception occurred during a WebClient request.
+ ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\SSKIOSK\a\1.txt'.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 153
+[2021-07-01 오전 10:54:13] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 135
+[2021-07-01 오전 10:54:45] [updated] 
+List_Up
+[2021-07-01 오전 10:54:51] [updated] 
+List_Up
+[2021-07-01 오전 10:54:55] 
+ [failed] 
+System.Net.WebException: An exception occurred during a WebClient request.
+ ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\SSKIOSK\a\1.txt'.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 153
+[2021-07-01 오전 10:54:55] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 135
+[2021-07-01 오전 10:57:03] [updated] 
+List_Up
+[2021-07-01 오전 10:57:09] [updated] 
+List_Up
+[2021-07-01 오전 10:57:09] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 152
+[2021-07-01 오전 10:57:09] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 152
+[2021-07-01 오전 10:57:09] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 152
+[2021-07-01 오전 10:57:09] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 152
+[2021-07-01 오전 10:57:09] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 152
+[2021-07-01 오전 10:57:16] [updated] 
+List_Up
+[2021-07-01 오전 10:57:16] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 152
+[2021-07-01 오전 10:57:16] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 152
+[2021-07-01 오전 10:57:16] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 152
+[2021-07-01 오전 10:57:16] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 152
+[2021-07-01 오전 10:57:16] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 152
+[2021-07-01 오전 10:57:29] [updated] 
+List_Up
+[2021-07-01 오전 10:57:29] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 152
+[2021-07-01 오전 10:57:29] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 152
+[2021-07-01 오전 10:57:29] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 152
+[2021-07-01 오전 10:57:29] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 152
+[2021-07-01 오전 10:57:29] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 152
+[2021-07-01 오전 10:57:44] [updated] 
+List_Up
+[2021-07-01 오전 10:57:54] [updated] 
+List_Up
+[2021-07-01 오전 10:57:55] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 153
+[2021-07-01 오전 10:57:56] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 153
+[2021-07-01 오전 10:57:56] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 153
+[2021-07-01 오전 10:57:57] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 153
+[2021-07-01 오전 10:57:57] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 153
+[2021-07-01 오전 10:58:20] [updated] 
+List_Up
+[2021-07-01 오전 10:58:29] [updated] 
+List_Up
+[2021-07-01 오전 10:58:36] [updated] 
+List_Up
+[2021-07-01 오전 10:58:39] 
+ [failed] 
+System.Net.WebException: An exception occurred during a WebClient request.
+ ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\SSKIOSK\a\1.txt'.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 157
+[2021-07-01 오전 10:58:39] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 153
+[2021-07-01 오전 10:58:42] [updated] 
+List_Up
+[2021-07-01 오전 10:58:50] [updated] 
+List_Up
+[2021-07-01 오전 10:59:01] 
+ [failed] 
+System.Net.WebException: An exception occurred during a WebClient request.
+ ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\SSKIOSK\a\1.txt'.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 157
+[2021-07-01 오전 10:59:01] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 153
+[2021-07-01 오전 10:59:30] [updated] 
+List_Up
+[2021-07-01 오전 10:59:32] 
+ [failed] 
+System.Net.WebException: An exception occurred during a WebClient request.
+ ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\SSKIOSK\a\1.txt'.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 157
+[2021-07-01 오전 10:59:32] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 153
+[2021-07-01 오전 11:00:04] [updated] 
+List_Up
+[2021-07-01 오전 11:00:10] [updated] 
+List_Up
+[2021-07-01 오전 11:00:10] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 153
+[2021-07-01 오전 11:00:10] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 153
+[2021-07-01 오전 11:00:10] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 153
+[2021-07-01 오전 11:00:10] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 153
+[2021-07-01 오전 11:00:11] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 153
+[2021-07-01 오전 11:00:19] [updated] 
+List_Up
+[2021-07-01 오전 11:00:23] [updated] 
+List_Up
+[2021-07-01 오전 11:00:23] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 153
+[2021-07-01 오전 11:00:23] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 153
+[2021-07-01 오전 11:00:23] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 153
+[2021-07-01 오전 11:00:23] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 153
+[2021-07-01 오전 11:00:23] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 153
+[2021-07-01 오전 11:00:40] [updated] 
+List_Up
+[2021-07-01 오전 11:00:47] [updated] 
+List_Up
+[2021-07-01 오전 11:00:47] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 151
+[2021-07-01 오전 11:00:47] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 151
+[2021-07-01 오전 11:00:47] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 151
+[2021-07-01 오전 11:00:47] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 151
+[2021-07-01 오전 11:00:47] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 151
+[2021-07-01 오전 11:03:52] [updated] 
+List_Up
+[2021-07-01 오전 11:03:57] [updated] 
+List_Up
+[2021-07-01 오전 11:04:00] 
+ [failed] 
+System.Net.WebException: An exception occurred during a WebClient request.
+ ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\SSKIOSK\a\1.txt'.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 157
+[2021-07-01 오전 11:04:00] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 152
+[2021-07-01 오전 11:04:09] [updated] 
+List_Up
+[2021-07-01 오전 11:04:11] 
+ [failed] 
+System.Net.WebException: An exception occurred during a WebClient request.
+ ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\SSKIOSK\a\1.txt'.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 157
+[2021-07-01 오전 11:04:11] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 152
+[2021-07-01 오전 11:05:22] [updated] 
+List_Up
+[2021-07-01 오전 11:05:27] [updated] 
+List_Up
+[2021-07-01 오전 11:05:31] 
+ [failed] 
+System.Net.WebException: An exception occurred during a WebClient request.
+ ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\SSKIOSK\a\1.txt'.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 157
+[2021-07-01 오전 11:05:31] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 152
+[2021-07-01 오전 11:05:38] [updated] 
+List_Up
+[2021-07-01 오전 11:05:44] [updated] 
+List_Up
+[2021-07-01 오전 11:05:47] 
+ [failed] 
+System.Net.WebException: An exception occurred during a WebClient request.
+ ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\SSKIOSK\a\1.txt'.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 157
+[2021-07-01 오전 11:05:47] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 152
+[2021-07-01 오전 11:08:26] [updated] 
+List_Up
+[2021-07-01 오전 11:08:32] [updated] 
+List_Up
+[2021-07-01 오전 11:08:38] 
+ [failed] 
+System.Net.WebException: An exception occurred during a WebClient request.
+ ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\SSKIOSK\a\1.txt'.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 160
+[2021-07-01 오전 11:08:38] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 148
+[2021-07-01 오전 11:11:57] [updated] 
+List_Up
+[2021-07-01 오전 11:12:04] 
+ [failed] 
+System.Net.WebException: An exception occurred during a WebClient request.
+ ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\SSKIOSK\a\1.txt'.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 162
+[2021-07-01 오전 11:12:04] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 149
+[2021-07-01 오전 11:13:56] [updated] 
+List_Up
+[2021-07-01 오전 11:14:03] [updated] 
+List_Up
+[2021-07-01 오전 11:14:10] 
+ [failed] 
+System.Net.WebException: An exception occurred during a WebClient request.
+ ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\SSKIOSK\a\1.txt'.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 161
+[2021-07-01 오전 11:14:10] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 149
+[2021-07-01 오전 11:15:09] [updated] 
+List_Up
+[2021-07-01 오전 11:15:14] [updated] 
+List_Up
+[2021-07-01 오전 11:15:19] 
+ [failed] 
+System.Net.WebException: An exception occurred during a WebClient request.
+ ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\SSKIOSK\a\1.txt'.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 162
+[2021-07-01 오전 11:15:19] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 149
+[2021-07-01 오전 11:16:11] [updated] 
+List_Up
+[2021-07-01 오전 11:16:19] [updated] 
+List_Up
+[2021-07-01 오전 11:16:21] 
+ [failed] 
+System.Net.WebException: An exception occurred during a WebClient request.
+ ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\SSKIOSK\a\1.txt'.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 163
+[2021-07-01 오전 11:16:21] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 149
+[2021-07-01 오전 11:16:33] [updated] 
+List_Up
+[2021-07-01 오전 11:16:35] 
+ [failed] 
+System.Net.WebException: An exception occurred during a WebClient request.
+ ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\SSKIOSK\a\1.txt'.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 163
+[2021-07-01 오전 11:16:35] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 149
+[2021-07-01 오전 11:17:02] [updated] 
+List_Up
+[2021-07-01 오전 11:17:14] [updated] 
+List_Up
+[2021-07-01 오전 11:17:16] 
+ [failed] 
+System.Net.WebException: An exception occurred during a WebClient request.
+ ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Administrator\Documents\s\a\1.txt'.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 163
+[2021-07-01 오전 11:17:16] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 149
+[2021-07-01 오전 11:17:25] [updated] 
+List_Up
+[2021-07-01 오전 11:17:32] [updated] 
+List_Up
+[2021-07-01 오전 11:17:41] 
+ [failed] 
+System.Net.WebException: An exception occurred during a WebClient request.
+ ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Administrator\Documents\s\a\1.txt'.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 163
+[2021-07-01 오전 11:17:41] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 149
+[2021-07-01 오전 11:18:14] [updated] 
+List_Up
+[2021-07-01 오전 11:18:16] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 149
+[2021-07-01 오전 11:18:49] [updated] 
+List_Up
+[2021-07-01 오전 11:18:56] [updated] 
+List_Up
+[2021-07-01 오전 11:18:58] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 149
+[2021-07-01 오후 1:44:11] [updated] 
+List_Up
+[2021-07-01 오후 2:51:38] [updated] 
+List_Up
+[2021-07-01 오후 2:51:56] [updated] 
+List_Up
+[2021-07-01 오후 2:55:15] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 149
+[2021-07-01 오후 2:56:28] [updated] 
+List_Up
+[2021-07-01 오후 3:01:50] [updated] 
+List_Up
+[2021-07-01 오후 3:02:22] [updated] 
+List_Up
+[2021-07-01 오후 3:02:45] [updated] 
+List_Up
+[2021-07-01 오후 3:03:12] [updated] 
+List_Up
+[2021-07-01 오후 3:03:46] [updated] 
+List_Up
+[2021-07-01 오후 3:04:20] [updated] 
+List_Up
+[2021-07-01 오후 3:04:40] [updated] 
+List_Up
+[2021-07-01 오후 3:05:14] [updated] 
+List_Up
+[2021-07-01 오후 3:06:22] [updated] 
+List_Up

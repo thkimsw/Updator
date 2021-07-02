@@ -1,3 +1,0 @@
-본코드는 DB를 거치지 않는다.(보안 및 FTP 병행 해결)
-1.Get_FileLIst를 웹서버 리포지토리에 넣고 실행하면 List.ini (클라이언트에서 웹서버 파일목록을 파싱 및 다운로드 요청을 목적으로 한다)
-2.Get_Update 를 클라이언트 단에 넣고 Path.ini에 S_Resource를 서버경로 T_Resource를 수정 후 exe 실행 시 웹서버 하위까지 전량 다운된다.

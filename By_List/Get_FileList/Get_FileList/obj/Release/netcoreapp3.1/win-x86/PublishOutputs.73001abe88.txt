@@ -1,0 +1,2 @@
+C:\Users\Administrator\source\repos\Get_FileList\Get_FileList\bin\publish\Get_FileList.pdb
+C:\Users\Administrator\source\repos\Get_FileList\Get_FileList\bin\publish\Get_FileList.exe

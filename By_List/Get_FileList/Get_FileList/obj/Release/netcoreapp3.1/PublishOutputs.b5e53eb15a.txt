@@ -1,0 +1,5 @@
+C:\Users\Administrator\source\repos\Get_FileList\Get_FileList\bin\Release\netcoreapp3.1\publish\Get_FileList.exe
+C:\Users\Administrator\source\repos\Get_FileList\Get_FileList\bin\Release\netcoreapp3.1\publish\Get_FileList.dll
+C:\Users\Administrator\source\repos\Get_FileList\Get_FileList\bin\Release\netcoreapp3.1\publish\Get_FileList.deps.json
+C:\Users\Administrator\source\repos\Get_FileList\Get_FileList\bin\Release\netcoreapp3.1\publish\Get_FileList.runtimeconfig.json
+C:\Users\Administrator\source\repos\Get_FileList\Get_FileList\bin\Release\netcoreapp3.1\publish\Get_FileList.pdb

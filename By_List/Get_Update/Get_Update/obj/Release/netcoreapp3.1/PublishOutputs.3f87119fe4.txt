@@ -1,0 +1,5 @@
+C:\Users\Administrator\source\repos\Get_Update\Get_Update\bin\Release\netcoreapp3.1\publish\Get_Update.exe
+C:\Users\Administrator\source\repos\Get_Update\Get_Update\bin\Release\netcoreapp3.1\publish\Get_Update.dll
+C:\Users\Administrator\source\repos\Get_Update\Get_Update\bin\Release\netcoreapp3.1\publish\Get_Update.deps.json
+C:\Users\Administrator\source\repos\Get_Update\Get_Update\bin\Release\netcoreapp3.1\publish\Get_Update.runtimeconfig.json
+C:\Users\Administrator\source\repos\Get_Update\Get_Update\bin\Release\netcoreapp3.1\publish\Get_Update.pdb
