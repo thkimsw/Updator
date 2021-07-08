@@ -1,0 +1,138 @@
+[2021-07-05 오전 10:11:41] [updated]
+List_Up
+[2021-07-05 오전 10:11:49] [updated] 
+List_Up
+[2021-07-05 오전 10:12:29] [updated] 
+List_Up
+[2021-07-05 오전 10:12:36] [updated] 
+List_Up
+[2021-07-05 오전 10:13:02] [updated] 
+List_Up
+[2021-07-05 오전 10:13:02] 
+ [failed] 
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.Net.WebClient.GetWebResponse(WebRequest request)
+   at System.Net.WebClient.DownloadBits(WebRequest request, Stream writeStream)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 165
+[2021-07-05 오전 10:13:02] 
+ [failed] 
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.Net.WebClient.GetWebResponse(WebRequest request)
+   at System.Net.WebClient.DownloadBits(WebRequest request, Stream writeStream)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 165
+[2021-07-05 오전 10:13:02] 
+ [failed] 
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.Net.WebClient.GetWebResponse(WebRequest request)
+   at System.Net.WebClient.DownloadBits(WebRequest request, Stream writeStream)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 165
+[2021-07-05 오전 10:13:02] 
+ [failed] 
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.Net.WebClient.GetWebResponse(WebRequest request)
+   at System.Net.WebClient.DownloadBits(WebRequest request, Stream writeStream)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 165
+[2021-07-05 오전 10:13:02] 
+ [failed] 
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.Net.WebClient.GetWebResponse(WebRequest request)
+   at System.Net.WebClient.DownloadBits(WebRequest request, Stream writeStream)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 165
+[2021-07-05 오전 10:13:02] 
+ [failed] 
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.Net.WebClient.GetWebResponse(WebRequest request)
+   at System.Net.WebClient.DownloadBits(WebRequest request, Stream writeStream)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 165
+[2021-07-05 오전 10:13:02] 
+ [failed] 
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.Net.WebClient.GetWebResponse(WebRequest request)
+   at System.Net.WebClient.DownloadBits(WebRequest request, Stream writeStream)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 165
+[2021-07-05 오전 10:13:02] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 154
+[2021-07-05 오전 10:13:07] [updated] 
+List_Up
+[2021-07-05 오전 10:15:06] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 154
+[2021-07-05 오전 10:18:56] [updated] 
+List_Up
+[2021-07-05 오전 10:18:56] 
+ [failed] 
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.Net.WebClient.GetWebResponse(WebRequest request)
+   at System.Net.WebClient.DownloadBits(WebRequest request, Stream writeStream)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 160
+[2021-07-05 오전 10:18:56] 
+ [failed] 
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.Net.WebClient.GetWebResponse(WebRequest request)
+   at System.Net.WebClient.DownloadBits(WebRequest request, Stream writeStream)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 160
+[2021-07-05 오전 10:18:57] 
+ [failed] 
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.Net.WebClient.GetWebResponse(WebRequest request)
+   at System.Net.WebClient.DownloadBits(WebRequest request, Stream writeStream)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 160
+[2021-07-05 오전 10:18:57] 
+ [failed] 
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.Net.WebClient.GetWebResponse(WebRequest request)
+   at System.Net.WebClient.DownloadBits(WebRequest request, Stream writeStream)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 160
+[2021-07-05 오전 10:18:57] 
+ [failed] 
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.Net.WebClient.GetWebResponse(WebRequest request)
+   at System.Net.WebClient.DownloadBits(WebRequest request, Stream writeStream)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 160
+[2021-07-05 오전 10:18:57] 
+ [failed] 
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.Net.WebClient.GetWebResponse(WebRequest request)
+   at System.Net.WebClient.DownloadBits(WebRequest request, Stream writeStream)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 160
+[2021-07-05 오전 10:18:57] 
+ [failed] 
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.Net.WebClient.GetWebResponse(WebRequest request)
+   at System.Net.WebClient.DownloadBits(WebRequest request, Stream writeStream)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 160
+[2021-07-05 오전 10:18:57] 
+ [failed] 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Get_Update.Form1.Get_Update() in C:\Users\Administrator\source\repos\Get_Update\Get_Update\Form1.cs:line 149

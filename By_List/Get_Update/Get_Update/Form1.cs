@@ -58,9 +58,7 @@ namespace Get_Update
             {
              //   B_Cnt = 0.0;
             }
-           
-            B_Cnt = Convert.ToDouble(B_Version.ToString());
-        //    MessageBox.Show("B: "+ B_Cnt.ToString());
+        
             Get_Files_List();//파일 리스트 가져오기
             try
             {
@@ -70,13 +68,10 @@ namespace Get_Update
             {
                // A_Cnt = 0.0;
             }
-            A_Cnt = Convert.ToDouble(A_Version.ToString());
             // MessageBox.Show("A: " + A_Cnt.ToString());
 
-            if (A_Cnt > B_Cnt)
-            {
-                Get_Update();//업데이트
-            }
+            Get_Update();//업데이트
+          
             //업데이트 후 파일실행 및 폼종료 처리
             // Process.Start(C_Path.ToString()); // 실행 될 프로그램 설정\
             Application.Exit();

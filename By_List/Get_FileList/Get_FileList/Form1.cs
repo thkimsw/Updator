@@ -52,8 +52,10 @@ string Current_Path = System.Environment.CurrentDirectory;//현재 실행경로 
                 string masking = Path.GetFullPath(Path.Combine(File_Path, @".."));
 
                 GetPrivateProfileString("Version", "Version", "0.0", Cur_V, 255, Environment.CurrentDirectory.ToString() + @"\" + "List.ini");
-
                 version = Convert.ToDouble(Cur_V.ToString()); //버전정보 사전저장
+                version = version +0.1; //버전상승
+                version = Math.Round(version, 2);
+                WritePrivateProfileString("Version", "Version",version.ToString(), Environment.CurrentDirectory.ToString() + @"\" + "List.ini");
                 //파일 목록날짜 배열저장
                 WritePrivateProfileString("Files", null, null, Environment.CurrentDirectory.ToString() + @"\" + "List.ini");
 
@@ -72,10 +74,9 @@ string Current_Path = System.Environment.CurrentDirectory;//현재 실행경로 
                         s_buf = files[cnt].ToString();
                         s_buf = s_buf.Replace(masking, "");
                         s_buf = s_buf.Substring(1, s_buf.Length - 1);
-                        
+
                         n_fnm[cnt] = s_buf;
-                        d_li[cnt] = d_buf;
-                        
+                        d_li[cnt] = d_buf;      
                         cnt++;
                     }
                     catch (Exception e)
@@ -84,30 +85,25 @@ string Current_Path = System.Environment.CurrentDirectory;//현재 실행경로 
                 }
 
                 int n_cnt = 0;
+                string new_f = "";
+               
                 //old ini 불러와서 위에 파일(키),날짜(값)랑 비교 후 files에 쓰기
                 StringBuilder d_Builder = new StringBuilder(255);
-
                 while (n_cnt < files.Length)
                 {
-                    GetPrivateProfileString("Old_Files", "" + n_fnm[n_cnt], "", d_Builder, 255, Environment.CurrentDirectory.ToString() + @"\" + "List.ini"); //날짜 불러오기
-
-                    s_buf = files[n_cnt].ToString();
                 
-                    if (d_Builder.ToString() != File.GetLastWriteTime(files[n_cnt]).ToString())
-                    {
-                        s_buf = s_buf.Replace(masking, "");
-                        WritePrivateProfileString("Files", "" + n_cnt.ToString(), s_buf, Environment.CurrentDirectory.ToString() + @"\" + "List.ini");
-                        n_cnt++;
-                    }
+                    s_buf = files[n_cnt].ToString();
+                    s_buf = s_buf.Replace(masking, "");
+                    WritePrivateProfileString("Files", "" + n_cnt.ToString(), s_buf, Environment.CurrentDirectory.ToString() + @"\" + "List.ini");
+                
+                    n_cnt++;
                 }
 
                     WritePrivateProfileString("Files", "index", n_cnt.ToString(), Environment.CurrentDirectory.ToString() + @"\" + "List.ini");
-                    version = Double.Parse(Cur_V.ToString()) + 0.1; //버전상승
-                    version = Math.Truncate(version * 10) / 10;//trash 값 자르기
-                    WritePrivateProfileString("Version", "Version", version.ToString(), Environment.CurrentDirectory.ToString() + @"\" + "List.ini");
+    
                     WritePrivateProfileString("Old_Files", null, null, Environment.CurrentDirectory.ToString() + @"\" + "List.ini");
-
                     int o_cnt = 0;
+                    files = Directory.GetFiles(super_path, "*.*", SearchOption.AllDirectories).Where(d => !d.StartsWith(CP)).ToArray();
                     //Old_files 갱신
                     while (o_cnt < files.Length)
                     {
